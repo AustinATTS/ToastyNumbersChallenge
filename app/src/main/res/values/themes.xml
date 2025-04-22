@@ -1,3 +1,37 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
+    <style name="app_theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:buttonStyle">@style/custom_button</item>
+        <item name="colorAccent">@color/orange_light</item>
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orange_dark</item>
+        <item name="android:fontFamily">@font/selawik_bold</item>
 
+    </style>
+
+    <style name="app_theme.app_bar_overlay">
+        <item name="android:fontFamily">@font/selawik_bold</item>
+    </style>
+
+    <style name="app_theme.no_action_bar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/selawik_bold</item>
+    </style>
+
+    <style name="app_theme.popup_overlay">
+        <item name="android:fontFamily">@font/selawik_bold</item>
+    </style>
+
+    <style name="custom_button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_main</item>
+        <item name="android:fontFamily">@font/selawik_bold</item>
+    </style>
+
+    <style name="horizontal_line">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:fontFamily">@font/selawik_bold</item>
+    </style>
 </resources>
